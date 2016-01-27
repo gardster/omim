@@ -1,6 +1,60 @@
 cont {
   name: "aerialway-cable_car"
   element {
+    scale: 12
+    lines {
+      width: 0.5
+      color: 5131837
+      priority: 1864
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 1716407869
+      dashdot {
+        dd: 1.0
+        dd: 18.0
+      }
+      priority: 1716
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+    symbol {
+      name: "cable-car-s"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 10
+    }
+  }
+  element {
+    scale: 13
+    lines {
+      width: 0.5
+      color: 5131837
+      priority: 1864
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 1716407869
+      dashdot {
+        dd: 1.0
+        dd: 18.0
+      }
+      priority: 1716
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+    symbol {
+      name: "cable-car-s"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 10
+    }
+  }
+  element {
     scale: 14
     lines {
       width: 0.5
@@ -204,6 +258,60 @@ cont {
 }
 cont {
   name: "aerialway-chair_lift"
+  element {
+    scale: 12
+    lines {
+      width: 0.5
+      color: 5131837
+      priority: 1864
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 1716407869
+      dashdot {
+        dd: 1.0
+        dd: 18.0
+      }
+      priority: 1716
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+    symbol {
+      name: "cable-car-s"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 10
+    }
+  }
+  element {
+    scale: 13
+    lines {
+      width: 0.5
+      color: 5131837
+      priority: 1864
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 1716407869
+      dashdot {
+        dd: 1.0
+        dd: 18.0
+      }
+      priority: 1716
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+    symbol {
+      name: "cable-car-s"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 10
+    }
+  }
   element {
     scale: 14
     lines {
@@ -409,6 +517,48 @@ cont {
 cont {
   name: "aerialway-drag_lift"
   element {
+    scale: 12
+    lines {
+      width: 0.5
+      color: 5131837
+      priority: 1729
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 1716407869
+      dashdot {
+        dd: 1.0
+        dd: 18.0
+      }
+      priority: 1716
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+  }
+  element {
+    scale: 13
+    lines {
+      width: 0.5
+      color: 5131837
+      priority: 1729
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 1716407869
+      dashdot {
+        dd: 1.0
+        dd: 18.0
+      }
+      priority: 1716
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+  }
+  element {
     scale: 14
     lines {
       width: 0.5
@@ -607,6 +757,60 @@ cont {
 }
 cont {
   name: "aerialway-gondola"
+  element {
+    scale: 12
+    lines {
+      width: 0.5
+      color: 5131837
+      priority: 1864
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 1716407869
+      dashdot {
+        dd: 1.0
+        dd: 18.0
+      }
+      priority: 1716
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+    symbol {
+      name: "cable-car-s"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 10
+    }
+  }
+  element {
+    scale: 13
+    lines {
+      width: 0.5
+      color: 5131837
+      priority: 1864
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 1716407869
+      dashdot {
+        dd: 1.0
+        dd: 18.0
+      }
+      priority: 1716
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+    symbol {
+      name: "cable-car-s"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 10
+    }
+  }
   element {
     scale: 14
     lines {
@@ -812,6 +1016,60 @@ cont {
 cont {
   name: "aerialway-mixed_lift"
   element {
+    scale: 12
+    lines {
+      width: 0.5
+      color: 5131837
+      priority: 1864
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 1716407869
+      dashdot {
+        dd: 1.0
+        dd: 18.0
+      }
+      priority: 1716
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+    symbol {
+      name: "cable-car-s"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 10
+    }
+  }
+  element {
+    scale: 13
+    lines {
+      width: 0.5
+      color: 5131837
+      priority: 1864
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 1716407869
+      dashdot {
+        dd: 1.0
+        dd: 18.0
+      }
+      priority: 1716
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+    symbol {
+      name: "cable-car-s"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 10
+    }
+  }
+  element {
     scale: 14
     lines {
       width: 0.5
@@ -1015,6 +1273,24 @@ cont {
 }
 cont {
   name: "aerialway-station"
+  element {
+    scale: 12
+    symbol {
+      name: "cable-car-s"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 10
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "cable-car-s"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 10
+    }
+  }
   element {
     scale: 14
     symbol {
@@ -2032,6 +2308,53 @@ cont {
 cont {
   name: "amenity-bar"
   element {
+    scale: 15
+    symbol {
+      name: "beer-m"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "beer-m"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 17
+    symbol {
+      name: "beer-l"
+      priority: 16864
+    }
+    caption {
+      primary {
+        height: 11
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
     scale: 18
     symbol {
       name: "beer-l"
@@ -2224,11 +2547,55 @@ cont {
 cont {
   name: "amenity-bus_station"
   element {
+    scale: 12
+    symbol {
+      name: "bus-s"
+      apply_for_type: 1
+      priority: 16878
+      min_distance: 1
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "bus-s"
+      apply_for_type: 1
+      priority: 16878
+      min_distance: 1
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "bus-s"
+      apply_for_type: 1
+      priority: 16878
+    }
+    caption {
+      primary {
+        height: 10
+        color: 8947848
+        stroke_color: 856756480
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
     scale: 15
     symbol {
       name: "bus-m"
       apply_for_type: 1
-      priority: 16000
+      priority: 16878
+    }
+    caption {
+      primary {
+        height: 11
+        color: 8947848
+        stroke_color: 856756480
+        offset_y: 8
+      }
+      priority: 15878
     }
   }
   element {
@@ -2236,6 +2603,7 @@ cont {
     symbol {
       name: "bus-m"
       priority: 16878
+      min_distance: 1
     }
     caption {
       primary {
@@ -2259,6 +2627,7 @@ cont {
     symbol {
       name: "bus-l"
       priority: 16878
+      min_distance: 1
     }
     caption {
       primary {
@@ -2282,6 +2651,7 @@ cont {
     symbol {
       name: "bus-l"
       priority: 16878
+      min_distance: 1
     }
     caption {
       primary {
@@ -2305,6 +2675,7 @@ cont {
     symbol {
       name: "bus-l"
       priority: 16878
+      min_distance: 1
     }
     caption {
       primary {
@@ -2326,6 +2697,38 @@ cont {
 }
 cont {
   name: "amenity-cafe"
+  element {
+    scale: 14
+    symbol {
+      name: "cafe-s"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "cafe-m"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -2873,6 +3276,53 @@ cont {
 cont {
   name: "amenity-fast_food"
   element {
+    scale: 15
+    symbol {
+      name: "fastfood-m"
+      priority: 16851
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "fastfood-m"
+      priority: 16851
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 17
+    symbol {
+      name: "fastfood-l"
+      priority: 16851
+    }
+    caption {
+      primary {
+        height: 11
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
+  element {
     scale: 18
     symbol {
       name: "fastfood-l"
@@ -2905,6 +3355,32 @@ cont {
 }
 cont {
   name: "amenity-ferry_terminal"
+  element {
+    scale: 11
+    symbol {
+      name: "ship-s"
+      apply_for_type: 1
+      priority: 16878
+      min_distance: 12
+    }
+  }
+  element {
+    scale: 12
+    symbol {
+      name: "ship-s"
+      apply_for_type: 1
+      priority: 16878
+      min_distance: 12
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "ship-s"
+      apply_for_type: 1
+      priority: 16878
+    }
+  }
   element {
     scale: 14
     symbol {
@@ -3091,6 +3567,22 @@ cont {
 }
 cont {
   name: "amenity-fuel"
+  element {
+    scale: 15
+    symbol {
+      name: "fuel-m"
+      priority: 16000
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15500
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -3320,7 +3812,21 @@ cont {
     scale: 14
     area {
       color: 2496790
-      priority: -15973
+      priority: -15122
+    }
+    symbol {
+      name: "hospital-s"
+      apply_for_type: 1
+      priority: 16878
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
     }
   }
   element {
@@ -3333,6 +3839,7 @@ cont {
       name: "hospital-m"
       apply_for_type: 1
       priority: 16878
+      min_distance: 5
     }
     caption {
       primary {
@@ -3426,8 +3933,8 @@ cont {
     scale: 15
     symbol {
       name: "hunting-tower-m"
-      apply_for_type: 1
       priority: 16851
+      min_distance: 5
     }
     caption {
       primary {
@@ -3442,8 +3949,8 @@ cont {
     scale: 16
     symbol {
       name: "hunting-tower-m"
-      apply_for_type: 1
       priority: 16851
+      min_distance: 5
     }
     caption {
       primary {
@@ -3458,8 +3965,8 @@ cont {
     scale: 17
     symbol {
       name: "hunting-tower-m"
-      apply_for_type: 1
       priority: 16851
+      min_distance: 5
     }
     caption {
       primary {
@@ -3475,6 +3982,7 @@ cont {
     symbol {
       name: "hunting-tower-l"
       priority: 16851
+      min_distance: 5
     }
     caption {
       primary {
@@ -3490,6 +3998,7 @@ cont {
     symbol {
       name: "hunting-tower-l"
       priority: 16851
+      min_distance: 5
     }
     caption {
       primary {
@@ -4345,6 +4854,22 @@ cont {
 cont {
   name: "amenity-place_of_worship"
   element {
+    scale: 15
+    symbol {
+      name: "place-of-worship-m"
+      priority: 16864
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
     scale: 16
     area {
       color: 5064516
@@ -4423,6 +4948,22 @@ cont {
 }
 cont {
   name: "amenity-place_of_worship-buddhist"
+  element {
+    scale: 15
+    symbol {
+      name: "place-of-worship-m"
+      priority: 16864
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
   element {
     scale: 16
     area {
@@ -4503,6 +5044,22 @@ cont {
 cont {
   name: "amenity-place_of_worship-christian"
   element {
+    scale: 15
+    symbol {
+      name: "place-of-worship-m"
+      priority: 16864
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
     scale: 16
     area {
       color: 5064516
@@ -4581,6 +5138,22 @@ cont {
 }
 cont {
   name: "amenity-place_of_worship-hindu"
+  element {
+    scale: 15
+    symbol {
+      name: "place-of-worship-m"
+      priority: 16864
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
   element {
     scale: 16
     area {
@@ -4661,6 +5234,22 @@ cont {
 cont {
   name: "amenity-place_of_worship-jewish"
   element {
+    scale: 15
+    symbol {
+      name: "place-of-worship-m"
+      priority: 16864
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
     scale: 16
     area {
       color: 5064516
@@ -4739,6 +5328,22 @@ cont {
 }
 cont {
   name: "amenity-place_of_worship-muslim"
+  element {
+    scale: 15
+    symbol {
+      name: "place-of-worship-m"
+      priority: 16864
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
   element {
     scale: 16
     area {
@@ -4819,6 +5424,22 @@ cont {
 cont {
   name: "amenity-place_of_worship-shinto"
   element {
+    scale: 15
+    symbol {
+      name: "place-of-worship-m"
+      priority: 16864
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
     scale: 16
     area {
       color: 5064516
@@ -4897,6 +5518,22 @@ cont {
 }
 cont {
   name: "amenity-place_of_worship-taoist"
+  element {
+    scale: 15
+    symbol {
+      name: "place-of-worship-m"
+      priority: 16864
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
   element {
     scale: 16
     area {
@@ -5108,6 +5745,53 @@ cont {
 cont {
   name: "amenity-pub"
   element {
+    scale: 15
+    symbol {
+      name: "beer-m"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "beer-m"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 17
+    symbol {
+      name: "beer-l"
+      priority: 16864
+    }
+    caption {
+      primary {
+        height: 11
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
     scale: 18
     symbol {
       name: "beer-l"
@@ -5158,6 +5842,38 @@ cont {
 }
 cont {
   name: "amenity-restaurant"
+  element {
+    scale: 14
+    symbol {
+      name: "restaurant-s"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "restaurant-m"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -5223,6 +5939,38 @@ cont {
 cont {
   name: "amenity-restaurant-vegan"
   element {
+    scale: 14
+    symbol {
+      name: "restaurant-s"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "restaurant-m"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "restaurant-m"
@@ -5286,6 +6034,38 @@ cont {
 }
 cont {
   name: "amenity-restaurant-vegetarian"
+  element {
+    scale: 14
+    symbol {
+      name: "restaurant-s"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "restaurant-m"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -5516,9 +6296,73 @@ cont {
 cont {
   name: "amenity-theatre"
   element {
+    scale: 12
+    symbol {
+      name: "theatre-s"
+      priority: 16864
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "theatre-s"
+      priority: 16864
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "theatre-s"
+      priority: 16864
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "theatre-m"
+      priority: 16864
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
     scale: 16
     symbol {
-      name: "theatre-l"
+      name: "theatre-m"
       priority: 16864
       min_distance: 10
     }
@@ -5536,6 +6380,7 @@ cont {
     symbol {
       name: "theatre-l"
       priority: 16864
+      min_distance: 10
     }
     caption {
       primary {
@@ -5551,6 +6396,7 @@ cont {
     symbol {
       name: "theatre-l"
       priority: 16864
+      min_distance: 10
     }
     caption {
       primary {
@@ -5566,6 +6412,7 @@ cont {
     symbol {
       name: "theatre-l"
       priority: 16864
+      min_distance: 10
     }
     caption {
       primary {
@@ -5636,6 +6483,29 @@ cont {
       color: 2498323
       priority: -15987
     }
+    symbol {
+      name: "college-s"
+      apply_for_type: 1
+      priority: 16013
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 16000
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 14
+    area {
+      color: 2498323
+      priority: -15987
+    }
+    apply_if: "!name"
   }
   element {
     scale: 15
@@ -5647,7 +6517,7 @@ cont {
       name: "college-m"
       apply_for_type: 1
       priority: 16013
-      min_distance: 12
+      min_distance: 10
     }
     caption {
       primary {
@@ -8116,7 +8986,7 @@ cont {
       primary {
         height: 10
         color: 5592405
-        offset_x: 9
+        offset_x: 10
         text: "ref"
       }
       priority: 15081
@@ -8133,7 +9003,7 @@ cont {
       primary {
         height: 10
         color: 5592405
-        offset_x: 9
+        offset_x: 10
         text: "ref"
       }
       secondary {
@@ -8656,6 +9526,14 @@ cont {
 }
 cont {
   name: "highway-bus_stop"
+  element {
+    scale: 15
+    symbol {
+      name: "bus-m"
+      priority: 16878
+      min_distance: 15
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -26416,10 +27294,75 @@ cont {
 cont {
   name: "historic-castle"
   element {
+    scale: 12
+    symbol {
+      name: "remains-s"
+      priority: 16878
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "remains-s"
+      priority: 16878
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "remains-s"
+      priority: 16878
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "remains-m"
+      priority: 16878
+      min_distance: 5
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15878
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "remains-m"
       priority: 16878
+      min_distance: 5
     }
     caption {
       primary {
@@ -26435,6 +27378,7 @@ cont {
     symbol {
       name: "remains-l"
       priority: 16878
+      min_distance: 5
     }
     caption {
       primary {
@@ -26450,6 +27394,7 @@ cont {
     symbol {
       name: "remains-l"
       priority: 16878
+      min_distance: 5
     }
     caption {
       primary {
@@ -26465,6 +27410,7 @@ cont {
     symbol {
       name: "remains-l"
       priority: 16878
+      min_distance: 5
     }
     caption {
       primary {
@@ -26538,6 +27484,38 @@ cont {
 cont {
   name: "historic-memorial"
   element {
+    scale: 15
+    symbol {
+      name: "monument-m"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "monument-m"
+      priority: 16000
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15000
+    }
+  }
+  element {
     scale: 17
     symbol {
       name: "monument-l"
@@ -26585,6 +27563,70 @@ cont {
 }
 cont {
   name: "historic-monument"
+  element {
+    scale: 12
+    symbol {
+      name: "monument-s"
+      priority: 16864
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "monument-s"
+      priority: 16864
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "monument-s"
+      priority: 16864
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "monument-m"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -26648,6 +27690,70 @@ cont {
 }
 cont {
   name: "historic-museum"
+  element {
+    scale: 12
+    symbol {
+      name: "museum-s"
+      priority: 16878
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "museum-s"
+      priority: 16878
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "museum-s"
+      priority: 16878
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "museum-m"
+      priority: 16878
+      min_distance: 5
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15878
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -27605,19 +28711,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15108
@@ -27641,19 +28748,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15108
@@ -27669,98 +28777,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    apply_if: "!name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -27789,7 +28806,7 @@ cont {
     apply_if: "!name"
   }
   element {
-    scale: 16
+    scale: 15
     area {
       color: 1317888
       priority: -15892
@@ -27797,13 +28814,14 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
         height: 11
         color: 2836760
         stroke_color: 856756497
-        offset_y: 10
+        offset_y: 8
       }
       secondary {
         height: 10
@@ -27817,7 +28835,65 @@ cont {
     apply_if: "name"
   }
   element {
-    scale: 16
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
     area {
       color: 1317888
       priority: -15892
@@ -27833,90 +28909,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -27953,6 +28946,131 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    apply_if: "!name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -27989,6 +29107,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28025,6 +29144,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28053,6 +29173,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28081,6 +29202,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28109,6 +29231,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28145,6 +29268,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28194,6 +29318,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28222,6 +29347,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28250,6 +29376,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28278,6 +29405,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28327,6 +29455,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28355,6 +29484,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28383,6 +29513,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28442,19 +29573,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15108
@@ -28478,19 +29610,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15108
@@ -28506,98 +29639,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    apply_if: "!name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28626,7 +29668,7 @@ cont {
     apply_if: "!name"
   }
   element {
-    scale: 16
+    scale: 15
     area {
       color: 1317888
       priority: -15892
@@ -28634,13 +29676,14 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
         height: 11
         color: 2836760
         stroke_color: 856756497
-        offset_y: 10
+        offset_y: 8
       }
       secondary {
         height: 10
@@ -28654,7 +29697,65 @@ cont {
     apply_if: "name"
   }
   element {
-    scale: 16
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
     area {
       color: 1317888
       priority: -15892
@@ -28670,90 +29771,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28790,6 +29808,131 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    apply_if: "!name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28826,6 +29969,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28862,6 +30006,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28890,6 +30035,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28918,6 +30064,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28946,6 +30093,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -28982,6 +30130,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29031,6 +30180,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29059,6 +30209,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29087,6 +30238,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29115,6 +30267,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29164,6 +30317,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29192,6 +30346,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29220,6 +30375,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29279,19 +30435,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15108
@@ -29315,19 +30472,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15108
@@ -29343,98 +30501,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    apply_if: "!name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29463,7 +30530,7 @@ cont {
     apply_if: "!name"
   }
   element {
-    scale: 16
+    scale: 15
     area {
       color: 1317888
       priority: -15892
@@ -29471,13 +30538,14 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
         height: 11
         color: 2836760
         stroke_color: 856756497
-        offset_y: 10
+        offset_y: 8
       }
       secondary {
         height: 10
@@ -29491,7 +30559,65 @@ cont {
     apply_if: "name"
   }
   element {
-    scale: 16
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
     area {
       color: 1317888
       priority: -15892
@@ -29507,90 +30633,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29627,6 +30670,131 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    apply_if: "!name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29663,6 +30831,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29699,6 +30868,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29727,6 +30897,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29755,6 +30926,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29783,6 +30955,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29819,6 +30992,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29868,6 +31042,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29896,6 +31071,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29924,6 +31100,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -29952,6 +31129,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30001,6 +31179,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30029,6 +31208,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30057,6 +31237,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30116,19 +31297,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15108
@@ -30152,19 +31334,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15108
@@ -30180,98 +31363,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    apply_if: "!name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30300,7 +31392,7 @@ cont {
     apply_if: "!name"
   }
   element {
-    scale: 16
+    scale: 15
     area {
       color: 1317888
       priority: -15892
@@ -30308,13 +31400,14 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
         height: 11
         color: 2836760
         stroke_color: 856756497
-        offset_y: 10
+        offset_y: 8
       }
       secondary {
         height: 10
@@ -30328,7 +31421,65 @@ cont {
     apply_if: "name"
   }
   element {
-    scale: 16
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
     area {
       color: 1317888
       priority: -15892
@@ -30344,90 +31495,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15108
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15892
-    }
-    symbol {
-      name: "park-m"
-      priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30464,6 +31532,131 @@ cont {
     symbol {
       name: "park-m"
       priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15108
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    apply_if: "!name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15892
+    }
+    symbol {
+      name: "park-m"
+      priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30500,6 +31693,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30536,6 +31730,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30564,6 +31759,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30592,6 +31788,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30620,6 +31817,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30656,6 +31854,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30705,6 +31904,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30733,6 +31933,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30761,6 +31962,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30789,6 +31991,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30838,6 +32041,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30866,6 +32070,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -30894,6 +32099,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16108
+      min_distance: 10
     }
     caption {
       primary {
@@ -31103,7 +32309,7 @@ cont {
       primary {
         height: 10
         color: 5592405
-        offset_y: 10
+        offset_y: 8
       }
       priority: 15851
     }
@@ -31122,7 +32328,7 @@ cont {
       primary {
         height: 10
         color: 10066329
-        offset_y: 10
+        offset_y: 8
       }
       priority: 15851
     }
@@ -31141,7 +32347,7 @@ cont {
       primary {
         height: 10
         color: 10066329
-        offset_y: 10
+        offset_y: 8
       }
       priority: 15851
     }
@@ -31160,7 +32366,7 @@ cont {
       primary {
         height: 10
         color: 10066329
-        offset_y: 10
+        offset_y: 8
       }
       priority: 15851
     }
@@ -31179,7 +32385,7 @@ cont {
       primary {
         height: 10
         color: 10066329
-        offset_y: 10
+        offset_y: 8
       }
       priority: 15851
     }
@@ -31198,7 +32404,7 @@ cont {
       primary {
         height: 10
         color: 10066329
-        offset_y: 10
+        offset_y: 8
       }
       priority: 15851
     }
@@ -31265,6 +32471,14 @@ cont {
 }
 cont {
   name: "landuse-military"
+  element {
+    scale: 16
+    symbol {
+      name: "military-m"
+      priority: 16662
+      min_distance: 10
+    }
+  }
   element {
     scale: 17
     symbol {
@@ -32552,6 +33766,11 @@ cont {
       color: 1317888
       priority: -15892
     }
+    symbol {
+      name: "nparkf-s"
+      priority: 16108
+      min_distance: 20
+    }
   }
   element {
     scale: 12
@@ -32562,13 +33781,14 @@ cont {
     symbol {
       name: "nparkf-s"
       priority: 16108
+      min_distance: 12
     }
     caption {
       primary {
         height: 10
         color: 2836760
         stroke_color: 856756480
-        offset_y: 8
+        offset_y: 6
       }
       priority: 15108
     }
@@ -32582,13 +33802,14 @@ cont {
     symbol {
       name: "nparkf-s"
       priority: 16108
+      min_distance: 12
     }
     caption {
       primary {
         height: 10
         color: 2836760
         stroke_color: 856756480
-        offset_y: 8
+        offset_y: 6
       }
       priority: 15108
     }
@@ -32608,7 +33829,7 @@ cont {
         height: 11
         color: 2836760
         stroke_color: 856756480
-        offset_y: 10
+        offset_y: 8
       }
       priority: 15108
     }
@@ -32753,19 +33974,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15121
@@ -32789,19 +34011,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15121
@@ -32817,98 +34040,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    apply_if: "!name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -32937,7 +34069,7 @@ cont {
     apply_if: "!name"
   }
   element {
-    scale: 16
+    scale: 15
     area {
       color: 1317888
       priority: -15879
@@ -32945,13 +34077,14 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
         height: 11
         color: 2836760
         stroke_color: 856756497
-        offset_y: 10
+        offset_y: 8
       }
       secondary {
         height: 10
@@ -32965,7 +34098,65 @@ cont {
     apply_if: "name"
   }
   element {
-    scale: 16
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
     area {
       color: 1317888
       priority: -15879
@@ -32981,90 +34172,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33101,6 +34209,131 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    apply_if: "!name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33137,6 +34370,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33173,6 +34407,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33201,6 +34436,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33229,6 +34465,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33257,6 +34494,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33293,6 +34531,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33329,62 +34568,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
-    }
-    caption {
-      primary {
-        height: 13
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 18
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-l"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 13
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "!name"
-  }
-  element {
-    scale: 18
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-l"
-      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33430,6 +34614,35 @@ cont {
       }
       priority: 15121
     }
+    apply_if: "!name"
+  }
+  element {
+    scale: 18
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-l"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 13
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
     apply_if: "name"
   }
   element {
@@ -33441,6 +34654,36 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 13
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 18
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-l"
+      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33469,6 +34712,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33525,6 +34769,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33553,6 +34798,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33581,6 +34827,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33640,19 +34887,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15121
@@ -33676,19 +34924,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15121
@@ -33704,98 +34953,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    apply_if: "!name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33824,7 +34982,7 @@ cont {
     apply_if: "!name"
   }
   element {
-    scale: 16
+    scale: 15
     area {
       color: 1317888
       priority: -15879
@@ -33832,13 +34990,14 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
         height: 11
         color: 2836760
         stroke_color: 856756497
-        offset_y: 10
+        offset_y: 8
       }
       secondary {
         height: 10
@@ -33852,7 +35011,65 @@ cont {
     apply_if: "name"
   }
   element {
-    scale: 16
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
     area {
       color: 1317888
       priority: -15879
@@ -33868,90 +35085,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -33988,6 +35122,131 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    apply_if: "!name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34024,6 +35283,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34060,6 +35320,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34088,6 +35349,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34116,6 +35378,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34144,6 +35407,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34180,6 +35444,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34216,62 +35481,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
-    }
-    caption {
-      primary {
-        height: 13
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 18
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-l"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 13
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "!name"
-  }
-  element {
-    scale: 18
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-l"
-      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34317,6 +35527,35 @@ cont {
       }
       priority: 15121
     }
+    apply_if: "!name"
+  }
+  element {
+    scale: 18
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-l"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 13
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
     apply_if: "name"
   }
   element {
@@ -34328,6 +35567,36 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 13
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 18
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-l"
+      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34356,6 +35625,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34412,6 +35682,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34440,6 +35711,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34468,6 +35740,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34527,19 +35800,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15121
@@ -34563,19 +35837,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15121
@@ -34591,98 +35866,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    apply_if: "!name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34711,7 +35895,7 @@ cont {
     apply_if: "!name"
   }
   element {
-    scale: 16
+    scale: 15
     area {
       color: 1317888
       priority: -15879
@@ -34719,13 +35903,14 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
         height: 11
         color: 2836760
         stroke_color: 856756497
-        offset_y: 10
+        offset_y: 8
       }
       secondary {
         height: 10
@@ -34739,7 +35924,65 @@ cont {
     apply_if: "name"
   }
   element {
-    scale: 16
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
     area {
       color: 1317888
       priority: -15879
@@ -34755,90 +35998,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34875,6 +36035,131 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    apply_if: "!name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34911,6 +36196,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34947,6 +36233,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -34975,6 +36262,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35003,6 +36291,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35031,6 +36320,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35067,6 +36357,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35103,62 +36394,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
-    }
-    caption {
-      primary {
-        height: 13
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 18
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-l"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 13
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "!name"
-  }
-  element {
-    scale: 18
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-l"
-      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35204,6 +36440,35 @@ cont {
       }
       priority: 15121
     }
+    apply_if: "!name"
+  }
+  element {
+    scale: 18
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-l"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 13
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
     apply_if: "name"
   }
   element {
@@ -35215,6 +36480,36 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 13
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 18
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-l"
+      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35243,6 +36538,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35299,6 +36595,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35327,6 +36624,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35355,6 +36653,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35414,19 +36713,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15121
@@ -35450,19 +36750,20 @@ cont {
     symbol {
       name: "park-s"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
-        height: 11
+        height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
         color: 2836760
         stroke_color: 856756497
-        offset_y: 18
+        offset_y: 6
         text: "int_name"
       }
       priority: 15121
@@ -35478,98 +36779,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    apply_if: "!name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 8
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 15
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35598,7 +36808,7 @@ cont {
     apply_if: "!name"
   }
   element {
-    scale: 16
+    scale: 15
     area {
       color: 1317888
       priority: -15879
@@ -35606,13 +36816,14 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
         height: 11
         color: 2836760
         stroke_color: 856756497
-        offset_y: 10
+        offset_y: 8
       }
       secondary {
         height: 10
@@ -35626,7 +36837,65 @@ cont {
     apply_if: "name"
   }
   element {
-    scale: 16
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 8
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 15
     area {
       color: 1317888
       priority: -15879
@@ -35642,90 +36911,7 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 10
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 16
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-m"
-      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35762,6 +36948,131 @@ cont {
     symbol {
       name: "park-m"
       priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 10
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    apply_if: "!name"
+  }
+  element {
+    scale: 16
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-m"
+      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35798,6 +37109,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35834,6 +37146,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35862,6 +37175,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35890,6 +37204,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35918,6 +37233,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35954,6 +37270,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -35990,62 +37307,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
-    }
-    caption {
-      primary {
-        height: 13
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "name"
-  }
-  element {
-    scale: 18
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-l"
-      priority: 16121
-    }
-    caption {
-      primary {
-        height: 13
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 10
-      }
-      secondary {
-        height: 11
-        color: 2836760
-        stroke_color: 856756497
-        offset_y: 18
-        text: "int_name"
-      }
-      priority: 15121
-    }
-    apply_if: "!name"
-  }
-  element {
-    scale: 18
-    area {
-      color: 1317888
-      priority: -15879
-    }
-    symbol {
-      name: "park-l"
-      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -36091,6 +37353,35 @@ cont {
       }
       priority: 15121
     }
+    apply_if: "!name"
+  }
+  element {
+    scale: 18
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-l"
+      priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 13
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
     apply_if: "name"
   }
   element {
@@ -36102,6 +37393,36 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 13
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 10
+      }
+      secondary {
+        height: 11
+        color: 2836760
+        stroke_color: 856756497
+        offset_y: 18
+        text: "int_name"
+      }
+      priority: 15121
+    }
+    apply_if: "name"
+  }
+  element {
+    scale: 18
+    area {
+      color: 1317888
+      priority: -15879
+    }
+    symbol {
+      name: "park-l"
+      priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -36130,6 +37451,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -36186,6 +37508,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -36214,6 +37537,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -36242,6 +37566,7 @@ cont {
     symbol {
       name: "park-l"
       priority: 16121
+      min_distance: 10
     }
     caption {
       primary {
@@ -36862,10 +38187,27 @@ cont {
 cont {
   name: "leisure-water_park"
   element {
+    scale: 15
+    symbol {
+      name: "swimming-m"
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "swimming-m"
       priority: 16864
+      min_distance: 20
     }
     caption {
       primary {
@@ -36881,6 +38223,7 @@ cont {
     symbol {
       name: "swimming-l"
       priority: 16864
+      min_distance: 20
     }
     caption {
       primary {
@@ -36896,6 +38239,7 @@ cont {
     symbol {
       name: "swimming-l"
       priority: 16837
+      min_distance: 20
     }
     caption {
       primary {
@@ -36911,6 +38255,7 @@ cont {
     symbol {
       name: "swimming-l"
       priority: 16837
+      min_distance: 20
     }
     caption {
       primary {
@@ -37134,10 +38479,61 @@ cont {
 cont {
   name: "man_made-lighthouse"
   element {
+    scale: 11
+    symbol {
+      name: "lighthouse-s"
+      priority: 16878
+      min_distance: 10
+    }
+  }
+  element {
+    scale: 12
+    symbol {
+      name: "lighthouse-s"
+      priority: 16878
+      min_distance: 10
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "lighthouse-s"
+      apply_for_type: 1
+      priority: 16878
+      min_distance: 5
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "lighthouse-s"
+      apply_for_type: 1
+      priority: 16878
+      min_distance: 5
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
     scale: 15
     symbol {
       name: "lighthouse-m"
       priority: 16878
+      min_distance: 5
     }
     caption {
       primary {
@@ -37153,6 +38549,7 @@ cont {
     symbol {
       name: "lighthouse-m"
       priority: 16878
+      min_distance: 5
     }
     caption {
       primary {
@@ -37588,21 +38985,44 @@ cont {
     scale: 12
     area {
       color: 2631706
-      priority: -15811
+      priority: -15163
+    }
+    symbol {
+      name: "beach-s"
+      priority: 16837
+      min_distance: 10
     }
   }
   element {
     scale: 13
     area {
       color: 2631706
-      priority: -15811
+      priority: -15163
+    }
+    symbol {
+      name: "beach-s"
+      priority: 16837
+      min_distance: 10
     }
   }
   element {
     scale: 14
     area {
       color: 2631706
-      priority: -15811
+      priority: -15163
+    }
+    symbol {
+      name: "beach-s"
+      priority: 16837
+      min_distance: 5
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 8
+      }
+      priority: 15837
     }
   }
   element {
@@ -37767,17 +39187,27 @@ cont {
 cont {
   name: "natural-cave_entrance"
   element {
+    scale: 11
+    symbol {
+      name: "cave-s"
+      apply_for_type: 1
+      priority: 16878
+      min_distance: 20
+    }
+  }
+  element {
     scale: 12
     symbol {
       name: "cave-s"
       apply_for_type: 1
       priority: 16878
+      min_distance: 15
     }
     caption {
       primary {
         height: 10
         color: 5592405
-        offset_y: 10
+        offset_y: 8
       }
       priority: 15878
     }
@@ -37788,12 +39218,13 @@ cont {
       name: "cave-s"
       apply_for_type: 1
       priority: 16878
+      min_distance: 15
     }
     caption {
       primary {
         height: 10
         color: 5592405
-        offset_y: 10
+        offset_y: 8
       }
       priority: 15878
     }
@@ -37809,7 +39240,7 @@ cont {
       primary {
         height: 10
         color: 5592405
-        offset_y: 10
+        offset_y: 8
       }
       priority: 15878
     }
@@ -38846,6 +40277,7 @@ cont {
     symbol {
       name: "peakt-s"
       priority: 16878
+      min_distance: 10
     }
     apply_if: "name"
   }
@@ -38854,6 +40286,7 @@ cont {
     symbol {
       name: "peakt-s"
       priority: 16878
+      min_distance: 10
     }
     apply_if: "name"
   }
@@ -39423,11 +40856,51 @@ cont {
 cont {
   name: "natural-spring"
   element {
+    scale: 12
+    symbol {
+      name: "drinking-water-s"
+      priority: 16878
+      min_distance: 15
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "drinking-water-s"
+      priority: 16878
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "drinking-water-s"
+      priority: 16878
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
     scale: 15
     symbol {
       name: "drinking-water-m"
-      apply_for_type: 1
       priority: 16878
+      min_distance: 5
     }
     caption {
       primary {
@@ -39443,6 +40916,7 @@ cont {
     symbol {
       name: "drinking-water-m"
       priority: 16878
+      min_distance: 5
     }
     caption {
       primary {
@@ -39458,6 +40932,7 @@ cont {
     symbol {
       name: "drinking-water-l"
       priority: 16878
+      min_distance: 5
     }
     caption {
       primary {
@@ -39473,6 +40948,7 @@ cont {
     symbol {
       name: "drinking-water-l"
       priority: 16864
+      min_distance: 5
     }
     caption {
       primary {
@@ -39488,6 +40964,7 @@ cont {
     symbol {
       name: "drinking-water-l"
       priority: 16864
+      min_distance: 5
     }
     caption {
       primary {
@@ -39504,7 +40981,7 @@ cont {
   element {
     scale: 18
     symbol {
-      name: "tree-m"
+      name: "tree-s"
       apply_for_type: 1
       priority: 16837
     }
@@ -39512,7 +40989,7 @@ cont {
   element {
     scale: 19
     symbol {
-      name: "tree-m"
+      name: "tree-s"
       apply_for_type: 1
       priority: 16837
     }
@@ -40019,6 +41496,14 @@ cont {
 cont {
   name: "natural-waterfall"
   element {
+    scale: 11
+    symbol {
+      name: "waterfall-s"
+      priority: 16878
+      min_distance: 15
+    }
+  }
+  element {
     scale: 12
     symbol {
       name: "waterfall-s"
@@ -40097,6 +41582,7 @@ cont {
     scale: 17
     symbol {
       name: "waterfall-l"
+      apply_for_type: 1
       priority: 16878
     }
     caption {
@@ -48830,6 +50316,16 @@ cont {
 cont {
   name: "railway-funicular"
   element {
+    scale: 12
+    lines {
+      width: 1.4
+      color: 3355443
+      priority: 1635
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+  }
+  element {
     scale: 13
     lines {
       width: 2.0
@@ -48902,6 +50398,16 @@ cont {
 }
 cont {
   name: "railway-funicular-bridge"
+  element {
+    scale: 12
+    lines {
+      width: 1.4
+      color: 3355443
+      priority: 1635
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+  }
   element {
     scale: 13
     lines {
@@ -48976,6 +50482,16 @@ cont {
 cont {
   name: "railway-funicular-tunnel"
   element {
+    scale: 12
+    lines {
+      width: 1.4
+      color: 3355443
+      priority: 1635
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+  }
+  element {
     scale: 13
     lines {
       width: 2.0
@@ -49048,6 +50564,15 @@ cont {
 }
 cont {
   name: "railway-halt"
+  element {
+    scale: 11
+    symbol {
+      name: "train-s"
+      apply_for_type: 1
+      priority: 16891
+      min_distance: 10
+    }
+  }
   element {
     scale: 12
     symbol {
@@ -51541,9 +53066,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -51559,7 +53085,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -51568,6 +53094,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -51714,7 +53241,8 @@ cont {
     symbol {
       name: "subway-barcelona-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -51730,7 +53258,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -51739,6 +53267,7 @@ cont {
       name: "subway-barcelona-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -51883,9 +53412,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-berlin-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -51901,7 +53431,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -51910,6 +53440,7 @@ cont {
       name: "subway-berlin-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -52054,9 +53585,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -52072,7 +53604,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -52081,6 +53613,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -52225,9 +53758,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -52243,7 +53777,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -52252,6 +53786,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -52396,9 +53931,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -52414,7 +53950,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -52423,6 +53959,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -52567,9 +54104,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -52585,7 +54123,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -52594,6 +54132,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -52738,9 +54277,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -52756,7 +54296,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -52765,6 +54305,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -52909,9 +54450,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -52927,7 +54469,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -52936,6 +54478,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -53083,6 +54626,7 @@ cont {
       name: "subway-kiev-s"
       apply_for_type: 1
       priority: 16027
+      min_distance: 1
     }
     caption {
       primary {
@@ -53107,6 +54651,7 @@ cont {
       name: "subway-kiev-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -53243,9 +54788,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -53261,7 +54807,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -53270,6 +54816,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -53414,9 +54961,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -53432,7 +54980,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -53441,6 +54989,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -53587,7 +55136,8 @@ cont {
     symbol {
       name: "subway-london-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -53603,7 +55153,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -53612,6 +55162,7 @@ cont {
       name: "subway-london-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -53756,9 +55307,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-madrid-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -53774,7 +55326,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -53783,6 +55335,7 @@ cont {
       name: "subway-madrid-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -53930,6 +55483,7 @@ cont {
       name: "subway-minsk-s"
       apply_for_type: 1
       priority: 16891
+      min_distance: 1
     }
     caption {
       primary {
@@ -53954,6 +55508,7 @@ cont {
       name: "subway-minsk-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54093,6 +55648,7 @@ cont {
       name: "subway-moscow-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
   }
   element {
@@ -54101,6 +55657,7 @@ cont {
       name: "subway-moscow-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54125,6 +55682,7 @@ cont {
       name: "subway-moscow-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54149,6 +55707,7 @@ cont {
       name: "subway-moscow-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54287,7 +55846,8 @@ cont {
     symbol {
       name: "subway-newyork-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54303,7 +55863,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -54312,6 +55872,7 @@ cont {
       name: "subway-newyork-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54456,9 +56017,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54474,7 +56036,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -54483,6 +56045,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54629,7 +56192,8 @@ cont {
     symbol {
       name: "subway-paris-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54645,7 +56209,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -54654,6 +56218,7 @@ cont {
       name: "subway-paris-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54798,9 +56363,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54816,7 +56382,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -54825,6 +56391,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54969,9 +56536,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -54987,7 +56555,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -54996,6 +56564,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -55140,9 +56709,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-rome-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -55158,7 +56728,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -55167,6 +56737,7 @@ cont {
       name: "subway-rome-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -55308,6 +56879,7 @@ cont {
       name: "subway-spb-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
   }
   element {
@@ -55322,7 +56894,7 @@ cont {
         height: 10
         color: 8947848
         stroke_color: 1712394496
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 9
@@ -55340,13 +56912,14 @@ cont {
       name: "subway-spb-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
         height: 11
         color: 8947848
         stroke_color: 1712394496
-        offset_y: 8
+        offset_y: 6
       }
       secondary {
         height: 10
@@ -55364,6 +56937,7 @@ cont {
       name: "subway-spb-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -55500,9 +57074,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -55518,7 +57093,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -55527,6 +57102,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -55671,9 +57247,10 @@ cont {
   element {
     scale: 13
     symbol {
-      name: "train-s"
+      name: "subway-s"
       apply_for_type: 1
-      priority: 16891
+      priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -55689,7 +57266,7 @@ cont {
         offset_y: 6
         text: "int_name"
       }
-      priority: 15891
+      priority: 15905
     }
   }
   element {
@@ -55698,6 +57275,7 @@ cont {
       name: "subway-s"
       apply_for_type: 1
       priority: 16905
+      min_distance: 1
     }
     caption {
       primary {
@@ -56822,6 +58400,26 @@ cont {
 cont {
   name: "railway-tram"
   element {
+    scale: 13
+    lines {
+      width: 0.6
+      color: 6052945
+      priority: 1635
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+  }
+  element {
+    scale: 14
+    lines {
+      width: 0.6
+      color: 6052945
+      priority: 1635
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+  }
+  element {
     scale: 15
     lines {
       width: 0.7
@@ -56874,6 +58472,26 @@ cont {
 }
 cont {
   name: "railway-tram-bridge"
+  element {
+    scale: 13
+    lines {
+      width: 0.6
+      color: 6052945
+      priority: 1635
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+  }
+  element {
+    scale: 14
+    lines {
+      width: 0.6
+      color: 6052945
+      priority: 1635
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+  }
   element {
     scale: 15
     lines {
@@ -56928,6 +58546,26 @@ cont {
 cont {
   name: "railway-tram-tunnel"
   element {
+    scale: 13
+    lines {
+      width: 0.6
+      color: 6052945
+      priority: 1635
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+  }
+  element {
+    scale: 14
+    lines {
+      width: 0.6
+      color: 6052945
+      priority: 1635
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+  }
+  element {
     scale: 15
     lines {
       width: 0.7
@@ -56980,6 +58618,14 @@ cont {
 }
 cont {
   name: "railway-tram_stop"
+  element {
+    scale: 14
+    symbol {
+      name: "tram-s"
+      apply_for_type: 1
+      priority: 16891
+    }
+  }
   element {
     scale: 15
     symbol {
@@ -58285,11 +59931,29 @@ cont {
 cont {
   name: "shop-alcohol"
   element {
+    scale: 17
+    symbol {
+      name: "alcohol-l"
+      apply_for_type: 1
+      priority: 16837
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 11
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15837
+    }
+  }
+  element {
     scale: 18
     symbol {
       name: "alcohol-l"
       apply_for_type: 1
       priority: 16837
+      min_distance: 20
     }
     caption {
       primary {
@@ -58305,6 +59969,7 @@ cont {
     symbol {
       name: "alcohol-l"
       priority: 16837
+      min_distance: 20
     }
     caption {
       primary {
@@ -59162,7 +60827,6 @@ cont {
     scale: 17
     symbol {
       name: "laundry-l"
-      apply_for_type: 1
       priority: 16972
     }
     caption {
@@ -59208,11 +60872,29 @@ cont {
 cont {
   name: "shop-mall"
   element {
+    scale: 15
+    symbol {
+      name: "shop-m"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "shop-m"
       apply_for_type: 1
       priority: 16864
+      min_distance: 15
     }
     caption {
       primary {
@@ -59229,6 +60911,7 @@ cont {
       name: "shop-l"
       apply_for_type: 1
       priority: 16864
+      min_distance: 15
     }
     caption {
       primary {
@@ -59245,6 +60928,7 @@ cont {
       name: "shop-l"
       apply_for_type: 1
       priority: 16864
+      min_distance: 15
     }
     caption {
       primary {
@@ -59260,6 +60944,7 @@ cont {
     symbol {
       name: "shop-l"
       priority: 16864
+      min_distance: 15
     }
     caption {
       primary {
@@ -59406,11 +61091,46 @@ cont {
 cont {
   name: "shop-supermarket"
   element {
+    scale: 15
+    symbol {
+      name: "grocery-m"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "grocery-m"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
+  element {
     scale: 17
     symbol {
       name: "grocery-l"
       apply_for_type: 1
       priority: 16851
+      min_distance: 15
     }
     caption {
       primary {
@@ -59427,6 +61147,7 @@ cont {
       name: "grocery-l"
       apply_for_type: 1
       priority: 16851
+      min_distance: 15
     }
     caption {
       primary {
@@ -59442,6 +61163,7 @@ cont {
     symbol {
       name: "grocery-l"
       priority: 16851
+      min_distance: 15
     }
     caption {
       primary {
@@ -60273,10 +61995,43 @@ cont {
 cont {
   name: "tourism-alpine_hut"
   element {
+    scale: 16
+    symbol {
+      name: "alpine_hut-m"
+      priority: 16837
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15837
+    }
+  }
+  element {
+    scale: 17
+    symbol {
+      name: "alpine_hut-l"
+      priority: 16837
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15837
+    }
+  }
+  element {
     scale: 18
     symbol {
       name: "alpine_hut-l"
       priority: 16837
+      min_distance: 10
     }
     caption {
       primary {
@@ -60292,6 +62047,7 @@ cont {
     symbol {
       name: "alpine_hut-l"
       priority: 16837
+      min_distance: 10
     }
     caption {
       primary {
@@ -60305,6 +62061,40 @@ cont {
 }
 cont {
   name: "tourism-artwork"
+  element {
+    scale: 15
+    symbol {
+      name: "tourism-m"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "tourism-m"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
   element {
     scale: 17
     symbol {
@@ -60360,8 +62150,8 @@ cont {
     scale: 15
     symbol {
       name: "tourism-m"
-      apply_for_type: 1
-      priority: 16851
+      priority: 16864
+      min_distance: 20
     }
     caption {
       primary {
@@ -60369,7 +62159,7 @@ cont {
         color: 5592405
         offset_y: 10
       }
-      priority: 15851
+      priority: 15864
     }
   }
   element {
@@ -60377,6 +62167,7 @@ cont {
     symbol {
       name: "tourism-m"
       priority: 16864
+      min_distance: 20
     }
     caption {
       primary {
@@ -60392,6 +62183,7 @@ cont {
     symbol {
       name: "tourism-l"
       priority: 16864
+      min_distance: 20
     }
     caption {
       primary {
@@ -60407,6 +62199,7 @@ cont {
     symbol {
       name: "tourism-l"
       priority: 16864
+      min_distance: 20
     }
     caption {
       primary {
@@ -60422,6 +62215,7 @@ cont {
     symbol {
       name: "tourism-l"
       priority: 16864
+      min_distance: 20
     }
     caption {
       primary {
@@ -60436,10 +62230,37 @@ cont {
 cont {
   name: "tourism-camp_site"
   element {
+    scale: 13
+    symbol {
+      name: "campsite-s"
+      apply_for_type: 1
+      priority: 16878
+      min_distance: 12
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "campsite-s"
+      apply_for_type: 1
+      priority: 16878
+      min_distance: 12
+    }
+  }
+  element {
     scale: 15
     symbol {
       name: "campsite-m"
       priority: 16878
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 12
+      }
+      priority: 15878
     }
   }
   element {
@@ -60539,10 +62360,43 @@ cont {
 cont {
   name: "tourism-guest_house"
   element {
+    scale: 16
+    symbol {
+      name: "motel-m"
+      priority: 16837
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15837
+    }
+  }
+  element {
+    scale: 17
+    symbol {
+      name: "motel-l"
+      priority: 16837
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15837
+    }
+  }
+  element {
     scale: 18
     symbol {
       name: "motel-l"
       priority: 16837
+      min_distance: 20
     }
     caption {
       primary {
@@ -60558,6 +62412,7 @@ cont {
     symbol {
       name: "motel-l"
       priority: 16837
+      min_distance: 20
     }
     caption {
       primary {
@@ -60571,6 +62426,40 @@ cont {
 }
 cont {
   name: "tourism-hostel"
+  element {
+    scale: 15
+    symbol {
+      name: "hotel-m"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "hotel-m"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
   element {
     scale: 17
     symbol {
@@ -60623,6 +62512,40 @@ cont {
 cont {
   name: "tourism-hotel"
   element {
+    scale: 15
+    symbol {
+      name: "hotel-m"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "hotel-m"
+      apply_for_type: 1
+      priority: 16864
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15864
+    }
+  }
+  element {
     scale: 17
     symbol {
       name: "hotel-l"
@@ -60673,6 +62596,91 @@ cont {
 }
 cont {
   name: "tourism-information"
+  element {
+    scale: 12
+    symbol {
+      name: "information-s"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "information-s"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "information-s"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "information-m"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "information-m"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
   element {
     scale: 17
     symbol {
@@ -60725,6 +62733,91 @@ cont {
 cont {
   name: "tourism-information-guidepost"
   element {
+    scale: 12
+    symbol {
+      name: "information-s"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "information-s"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "information-s"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "information-m"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "information-m"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
+  element {
     scale: 17
     symbol {
       name: "information-l"
@@ -60776,6 +62869,91 @@ cont {
 cont {
   name: "tourism-information-office"
   element {
+    scale: 12
+    symbol {
+      name: "information-s"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "information-s"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "information-s"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "information-m"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "information-m"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
+  element {
     scale: 17
     symbol {
       name: "information-l"
@@ -60825,10 +63003,43 @@ cont {
 cont {
   name: "tourism-motel"
   element {
+    scale: 16
+    symbol {
+      name: "motel-m"
+      priority: 16837
+      min_distance: 20
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15837
+    }
+  }
+  element {
+    scale: 17
+    symbol {
+      name: "motel-l"
+      priority: 16837
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15837
+    }
+  }
+  element {
     scale: 18
     symbol {
       name: "motel-l"
       priority: 16837
+      min_distance: 10
     }
     caption {
       primary {
@@ -60844,6 +63055,7 @@ cont {
     symbol {
       name: "motel-l"
       priority: 16837
+      min_distance: 10
     }
     caption {
       primary {
@@ -60858,11 +63070,59 @@ cont {
 cont {
   name: "tourism-museum"
   element {
+    scale: 12
+    symbol {
+      name: "museum-s"
+      priority: 16878
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "museum-s"
+      priority: 16878
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "museum-s"
+      priority: 16878
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
     scale: 15
     symbol {
       name: "museum-m"
       priority: 16878
-      min_distance: 1
+      min_distance: 5
     }
     caption {
       primary {
@@ -60985,9 +63245,94 @@ cont {
 cont {
   name: "tourism-viewpoint"
   element {
+    scale: 12
+    symbol {
+      name: "viewpoint-s"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "viewpoint-s"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "viewpoint-s"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 12
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "viewpoint-m"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "viewpoint-m"
+      apply_for_type: 1
+      priority: 16851
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 10
+      }
+      priority: 15851
+    }
+  }
+  element {
     scale: 17
     symbol {
-      name: "tourism-l"
+      name: "viewpoint-l"
       apply_for_type: 1
       priority: 16851
     }
@@ -61003,7 +63348,7 @@ cont {
   element {
     scale: 18
     symbol {
-      name: "tourism-l"
+      name: "viewpoint-l"
       apply_for_type: 1
       priority: 16851
     }
@@ -61019,7 +63364,7 @@ cont {
   element {
     scale: 19
     symbol {
-      name: "tourism-l"
+      name: "viewpoint-l"
       apply_for_type: 1
       priority: 16851
     }
@@ -61036,10 +63381,59 @@ cont {
 cont {
   name: "tourism-zoo"
   element {
+    scale: 12
+    symbol {
+      name: "zoo-s"
+      priority: 16878
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "zoo-s"
+      priority: 16878
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "zoo-s"
+      priority: 16878
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 6
+      }
+      priority: 15878
+    }
+  }
+  element {
     scale: 15
     symbol {
       name: "zoo-m"
       priority: 16878
+      min_distance: 5
     }
     caption {
       primary {
@@ -61055,6 +63449,7 @@ cont {
     symbol {
       name: "zoo-m"
       priority: 16878
+      min_distance: 5
     }
     caption {
       primary {
@@ -62839,6 +65234,14 @@ cont {
 }
 cont {
   name: "waterway-waterfall"
+  element {
+    scale: 11
+    symbol {
+      name: "waterfall-s"
+      priority: 16878
+      min_distance: 15
+    }
+  }
   element {
     scale: 12
     symbol {

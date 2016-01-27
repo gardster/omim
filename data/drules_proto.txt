@@ -1,6 +1,26 @@
 cont {
   name: "aerialway-cable_car"
   element {
+    scale: 12
+    lines {
+      width: 0.8
+      color: 2105376
+      priority: 1598
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+  }
+  element {
+    scale: 13
+    lines {
+      width: 0.8
+      color: 2105376
+      priority: 1598
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+  }
+  element {
     scale: 14
     lines {
       width: 0.8
@@ -63,6 +83,26 @@ cont {
 }
 cont {
   name: "aerialway-chair_lift"
+  element {
+    scale: 12
+    lines {
+      width: 0.8
+      color: 2105376
+      priority: 1604
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+  }
+  element {
+    scale: 13
+    lines {
+      width: 0.8
+      color: 2105376
+      priority: 1604
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+  }
   element {
     scale: 14
     lines {
@@ -127,23 +167,65 @@ cont {
 cont {
   name: "aerialway-drag_lift"
   element {
-    scale: 14
+    scale: 12
     lines {
       width: 0.5
       color: 4473924
       priority: 1729
-      join: ROUNDJOIN
+      join: BEVELJOIN
       cap: BUTTCAP
     }
     lines {
-      width: 2.5
+      width: 2.0
       color: 1715749956
       dashdot {
         dd: 1.0
         dd: 18.0
       }
       priority: 1716
-      join: ROUNDJOIN
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+  }
+  element {
+    scale: 13
+    lines {
+      width: 0.5
+      color: 4473924
+      priority: 1729
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 1715749956
+      dashdot {
+        dd: 1.0
+        dd: 18.0
+      }
+      priority: 1716
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+  }
+  element {
+    scale: 14
+    lines {
+      width: 0.5
+      color: 4473924
+      priority: 1729
+      join: BEVELJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 1715749956
+      dashdot {
+        dd: 1.0
+        dd: 18.0
+      }
+      priority: 1716
+      join: BEVELJOIN
       cap: BUTTCAP
     }
   }
@@ -153,18 +235,18 @@ cont {
       width: 0.5
       color: 4473924
       priority: 1729
-      join: ROUNDJOIN
+      join: BEVELJOIN
       cap: BUTTCAP
     }
     lines {
-      width: 2.5
+      width: 2.0
       color: 1715749956
       dashdot {
         dd: 1.0
         dd: 18.0
       }
       priority: 1716
-      join: ROUNDJOIN
+      join: BEVELJOIN
       cap: BUTTCAP
     }
   }
@@ -174,18 +256,18 @@ cont {
       width: 0.5
       color: 4473924
       priority: 1729
-      join: ROUNDJOIN
+      join: BEVELJOIN
       cap: BUTTCAP
     }
     lines {
-      width: 2.5
+      width: 2.0
       color: 1715749956
       dashdot {
         dd: 1.0
         dd: 18.0
       }
       priority: 1716
-      join: ROUNDJOIN
+      join: BEVELJOIN
       cap: BUTTCAP
     }
   }
@@ -195,18 +277,18 @@ cont {
       width: 0.5
       color: 4473924
       priority: 1729
-      join: ROUNDJOIN
+      join: BEVELJOIN
       cap: BUTTCAP
     }
     lines {
-      width: 2.5
+      width: 2.0
       color: 1715749956
       dashdot {
         dd: 1.0
         dd: 18.0
       }
       priority: 1716
-      join: ROUNDJOIN
+      join: BEVELJOIN
       cap: BUTTCAP
     }
   }
@@ -216,24 +298,44 @@ cont {
       width: 0.5
       color: 4473924
       priority: 1729
-      join: ROUNDJOIN
+      join: BEVELJOIN
       cap: BUTTCAP
     }
     lines {
-      width: 2.5
+      width: 2.0
       color: 1715749956
       dashdot {
         dd: 1.0
         dd: 18.0
       }
       priority: 1716
-      join: ROUNDJOIN
+      join: BEVELJOIN
       cap: BUTTCAP
     }
   }
 }
 cont {
   name: "aerialway-gondola"
+  element {
+    scale: 12
+    lines {
+      width: 0.8
+      color: 2105376
+      priority: 1601
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+  }
+  element {
+    scale: 13
+    lines {
+      width: 0.8
+      color: 2105376
+      priority: 1601
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+  }
   element {
     scale: 14
     lines {
@@ -298,6 +400,26 @@ cont {
 cont {
   name: "aerialway-mixed_lift"
   element {
+    scale: 12
+    lines {
+      width: 0.8
+      color: 2105376
+      priority: 1607
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+  }
+  element {
+    scale: 13
+    lines {
+      width: 0.8
+      color: 2105376
+      priority: 1607
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+  }
+  element {
     scale: 14
     lines {
       width: 0.8
@@ -360,6 +482,14 @@ cont {
 }
 cont {
   name: "aerialway-station"
+  element {
+    scale: 12
+    circle {
+      radius: 2.0
+      color: 2105376
+      priority: 14000
+    }
+  }
   element {
     scale: 13
     circle {
@@ -1540,6 +1670,13 @@ cont {
 cont {
   name: "amenity-bar"
   element {
+    scale: 15
+    symbol {
+      name: "bar"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "bar"
@@ -1862,6 +1999,27 @@ cont {
 cont {
   name: "amenity-bus_station"
   element {
+    scale: 12
+    symbol {
+      name: "bus"
+      priority: 16024
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "bus"
+      priority: 16024
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "bus"
+      priority: 16024
+    }
+  }
+  element {
     scale: 15
     symbol {
       name: "bus"
@@ -1947,6 +2105,20 @@ cont {
 }
 cont {
   name: "amenity-cafe"
+  element {
+    scale: 14
+    symbol {
+      name: "cafe"
+      priority: 16003
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "cafe"
+      priority: 16003
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -2581,6 +2753,13 @@ cont {
 cont {
   name: "amenity-fast_food"
   element {
+    scale: 15
+    symbol {
+      name: "fastfood"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "fastfood"
@@ -2638,6 +2817,27 @@ cont {
 }
 cont {
   name: "amenity-ferry_terminal"
+  element {
+    scale: 11
+    symbol {
+      name: "slipway"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 12
+    symbol {
+      name: "slipway"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "slipway"
+      priority: 16000
+    }
+  }
   element {
     scale: 14
     symbol {
@@ -4345,6 +4545,13 @@ cont {
 cont {
   name: "amenity-place_of_worship"
   element {
+    scale: 15
+    symbol {
+      name: "religion"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "religion"
@@ -4402,6 +4609,13 @@ cont {
 }
 cont {
   name: "amenity-place_of_worship-buddhist"
+  element {
+    scale: 15
+    symbol {
+      name: "religion"
+      priority: 16000
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -4461,6 +4675,13 @@ cont {
 cont {
   name: "amenity-place_of_worship-christian"
   element {
+    scale: 15
+    symbol {
+      name: "religion"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "religion"
@@ -4518,6 +4739,13 @@ cont {
 }
 cont {
   name: "amenity-place_of_worship-hindu"
+  element {
+    scale: 15
+    symbol {
+      name: "religion"
+      priority: 16000
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -4577,6 +4805,13 @@ cont {
 cont {
   name: "amenity-place_of_worship-jewish"
   element {
+    scale: 15
+    symbol {
+      name: "religion"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "religion"
@@ -4634,6 +4869,13 @@ cont {
 }
 cont {
   name: "amenity-place_of_worship-muslim"
+  element {
+    scale: 15
+    symbol {
+      name: "religion"
+      priority: 16000
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -4693,6 +4935,13 @@ cont {
 cont {
   name: "amenity-place_of_worship-shinto"
   element {
+    scale: 15
+    symbol {
+      name: "religion"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "religion"
@@ -4750,6 +4999,13 @@ cont {
 }
 cont {
   name: "amenity-place_of_worship-taoist"
+  element {
+    scale: 15
+    symbol {
+      name: "religion"
+      priority: 16000
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -4969,6 +5225,13 @@ cont {
 cont {
   name: "amenity-pub"
   element {
+    scale: 15
+    symbol {
+      name: "pub"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "pub"
@@ -5081,6 +5344,20 @@ cont {
 cont {
   name: "amenity-restaurant"
   element {
+    scale: 14
+    symbol {
+      name: "restaurant"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "restaurant"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "restaurant"
@@ -5139,6 +5416,20 @@ cont {
 cont {
   name: "amenity-restaurant-vegan"
   element {
+    scale: 14
+    symbol {
+      name: "restaurant"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "restaurant"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "restaurant"
@@ -5196,6 +5487,20 @@ cont {
 }
 cont {
   name: "amenity-restaurant-vegetarian"
+  element {
+    scale: 14
+    symbol {
+      name: "restaurant"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "restaurant"
+      priority: 16000
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -5595,6 +5900,34 @@ cont {
 }
 cont {
   name: "amenity-theatre"
+  element {
+    scale: 12
+    symbol {
+      name: "theatre"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "theatre"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "theatre"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "theatre"
+      priority: 16000
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -10892,6 +11225,29 @@ cont {
 }
 cont {
   name: "highway-bus_stop"
+  element {
+    scale: 15
+    symbol {
+      name: "bus-mini"
+      priority: 16024
+    }
+    caption {
+      primary {
+        height: 10
+        color: 3166424
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      secondary {
+        height: 9
+        color: 3166424
+        stroke_color: 16777215
+        offset_y: 10
+        text: "int_name"
+      }
+      priority: 15024
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -34236,6 +34592,34 @@ cont {
 cont {
   name: "historic-castle"
   element {
+    scale: 12
+    symbol {
+      name: "castle"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "castle"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "castle"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "castle"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "castle"
@@ -34364,6 +34748,13 @@ cont {
 cont {
   name: "historic-memorial"
   element {
+    scale: 15
+    symbol {
+      name: "memorial"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "memorial"
@@ -34422,6 +34813,34 @@ cont {
 cont {
   name: "historic-monument"
   element {
+    scale: 12
+    symbol {
+      name: "memorial"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "memorial"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "memorial"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "memorial"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "memorial"
@@ -34479,6 +34898,34 @@ cont {
 }
 cont {
   name: "historic-museum"
+  element {
+    scale: 12
+    symbol {
+      name: "museum"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "museum"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "museum"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "museum"
+      priority: 16000
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -40199,6 +40646,34 @@ cont {
 cont {
   name: "man_made-lighthouse"
   element {
+    scale: 11
+    symbol {
+      name: "lighthouse"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 12
+    symbol {
+      name: "lighthouse"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "lighthouse"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "lighthouse"
+      priority: 16000
+    }
+  }
+  element {
     scale: 15
     symbol {
       name: "lighthouse"
@@ -41658,6 +42133,21 @@ cont {
 }
 cont {
   name: "natural-cave_entrance"
+  element {
+    scale: 11
+    symbol {
+      name: "cave_entrance"
+      priority: 16000
+    }
+    caption {
+      primary {
+        height: 12
+        color: 2105376
+        offset_y: 10
+      }
+      priority: 15000
+    }
+  }
   element {
     scale: 12
     symbol {
@@ -43391,6 +43881,40 @@ cont {
 cont {
   name: "natural-spring"
   element {
+    scale: 12
+    lines {
+      width: 4.0
+      color: 9487572
+      priority: 1000
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+    caption {
+      primary {
+        height: 12
+        color: 5274858
+      }
+      priority: 15000
+    }
+  }
+  element {
+    scale: 13
+    lines {
+      width: 4.0
+      color: 9487572
+      priority: 1000
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+    caption {
+      primary {
+        height: 12
+        color: 5274858
+      }
+      priority: 15000
+    }
+  }
+  element {
     scale: 14
     lines {
       width: 4.0
@@ -43965,6 +44489,22 @@ cont {
 }
 cont {
   name: "natural-waterfall"
+  element {
+    scale: 11
+    symbol {
+      name: "waterfall"
+      apply_for_type: 1
+      priority: 16000
+    }
+    caption {
+      primary {
+        height: 12
+        color: 255
+        offset_y: 10
+      }
+      priority: 15000
+    }
+  }
   element {
     scale: 12
     symbol {
@@ -54227,6 +54767,13 @@ cont {
 }
 cont {
   name: "railway-halt"
+  element {
+    scale: 11
+    symbol {
+      name: "railway-station-mini"
+      priority: 16159
+    }
+  }
   element {
     scale: 12
     symbol {
@@ -65762,6 +66309,34 @@ cont {
 cont {
   name: "railway-tram"
   element {
+    scale: 13
+    lines {
+      width: 1.7
+      color: 5835097
+      dashdot {
+        dd: 3.6
+        dd: 5.4
+      }
+      priority: 1539
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 5835097
+      priority: 1533
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+    lines {
+      width: 1.7
+      color: 15120358
+      priority: 1536
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+  }
+  element {
     scale: 14
     lines {
       width: 1.7
@@ -65932,6 +66507,34 @@ cont {
 }
 cont {
   name: "railway-tram-bridge"
+  element {
+    scale: 13
+    lines {
+      width: 1.7
+      color: 5835097
+      dashdot {
+        dd: 3.6
+        dd: 5.4
+      }
+      priority: 1539
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 5835097
+      priority: 1533
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+    lines {
+      width: 1.7
+      color: 15120358
+      priority: 1536
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+  }
   element {
     scale: 14
     lines {
@@ -66173,6 +66776,34 @@ cont {
 }
 cont {
   name: "railway-tram-tunnel"
+  element {
+    scale: 13
+    lines {
+      width: 1.7
+      color: 5835097
+      dashdot {
+        dd: 3.6
+        dd: 5.4
+      }
+      priority: 1539
+      join: ROUNDJOIN
+      cap: BUTTCAP
+    }
+    lines {
+      width: 2.0
+      color: 5835097
+      priority: 1533
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+    lines {
+      width: 1.7
+      color: 15120358
+      priority: 1536
+      join: ROUNDJOIN
+      cap: ROUNDCAP
+    }
+  }
   element {
     scale: 14
     lines {
@@ -66434,6 +67065,29 @@ cont {
 }
 cont {
   name: "railway-tram_stop"
+  element {
+    scale: 14
+    symbol {
+      name: "tramway-mini"
+      priority: 16000
+    }
+    caption {
+      primary {
+        height: 10
+        color: 3166424
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      secondary {
+        height: 9
+        color: 3166424
+        stroke_color: 16777215
+        offset_y: 10
+        text: "int_name"
+      }
+      priority: 15000
+    }
+  }
   element {
     scale: 15
     symbol {
@@ -68891,6 +69545,13 @@ cont {
 cont {
   name: "shop-mall"
   element {
+    scale: 15
+    symbol {
+      name: "supermarket"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "supermarket"
@@ -69140,6 +69801,13 @@ cont {
 }
 cont {
   name: "shop-supermarket"
+  element {
+    scale: 15
+    symbol {
+      name: "supermarket"
+      priority: 16000
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -70252,6 +70920,13 @@ cont {
 cont {
   name: "tourism-hostel"
   element {
+    scale: 15
+    symbol {
+      name: "hostel"
+      priority: 16000
+    }
+  }
+  element {
     scale: 16
     symbol {
       name: "hostel"
@@ -70309,6 +70984,13 @@ cont {
 }
 cont {
   name: "tourism-hotel"
+  element {
+    scale: 15
+    symbol {
+      name: "hotel"
+      priority: 16000
+    }
+  }
   element {
     scale: 16
     symbol {
@@ -70368,6 +71050,86 @@ cont {
 cont {
   name: "tourism-information"
   element {
+    scale: 12
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
     scale: 17
     symbol {
       name: "information"
@@ -70419,6 +71181,86 @@ cont {
 cont {
   name: "tourism-information-guidepost"
   element {
+    scale: 12
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
     scale: 17
     symbol {
       name: "information"
@@ -70469,6 +71311,86 @@ cont {
 }
 cont {
   name: "tourism-information-office"
+  element {
+    scale: 12
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "information"
+      priority: 16003
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4210752
+        stroke_color: 16777215
+        offset_y: 10
+      }
+      priority: 15003
+    }
+  }
   element {
     scale: 17
     symbol {
@@ -70578,6 +71500,27 @@ cont {
 }
 cont {
   name: "tourism-museum"
+  element {
+    scale: 12
+    symbol {
+      name: "museum"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "museum"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "museum"
+      priority: 16000
+    }
+  }
   element {
     scale: 15
     symbol {
@@ -70741,6 +71684,27 @@ cont {
 }
 cont {
   name: "tourism-viewpoint"
+  element {
+    scale: 12
+    symbol {
+      name: "viewpoint"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 13
+    symbol {
+      name: "viewpoint"
+      priority: 16000
+    }
+  }
+  element {
+    scale: 14
+    symbol {
+      name: "viewpoint"
+      priority: 16000
+    }
+  }
   element {
     scale: 15
     symbol {
@@ -72631,18 +73595,19 @@ cont {
 cont {
   name: "waterway-waterfall"
   element {
+    scale: 11
+    symbol {
+      name: "waterfall-s"
+      priority: 16878
+      min_distance: 15
+    }
+  }
+  element {
     scale: 12
     symbol {
       name: "waterfall-s"
       priority: 16878
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 4473924
-        offset_y: 10
-      }
-      priority: 16878
+      min_distance: 15
     }
   }
   element {
@@ -72650,14 +73615,7 @@ cont {
     symbol {
       name: "waterfall-s"
       priority: 16878
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 4473924
-        offset_y: 10
-      }
-      priority: 16878
+      min_distance: 15
     }
   }
   element {
@@ -72665,14 +73623,7 @@ cont {
     symbol {
       name: "waterfall-s"
       priority: 16878
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 4473924
-        offset_y: 10
-      }
-      priority: 16878
+      min_distance: 15
     }
   }
   element {
@@ -72680,14 +73631,7 @@ cont {
     symbol {
       name: "waterfall-s"
       priority: 16878
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 4473924
-        offset_y: 10
-      }
-      priority: 16878
+      min_distance: 15
     }
   }
   element {
@@ -72695,14 +73639,7 @@ cont {
     symbol {
       name: "waterfall-s"
       priority: 16878
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 4473924
-        offset_y: 10
-      }
-      priority: 16878
+      min_distance: 15
     }
   }
   element {
@@ -72710,14 +73647,7 @@ cont {
     symbol {
       name: "waterfall-s"
       priority: 16878
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 4473924
-        offset_y: 10
-      }
-      priority: 16878
+      min_distance: 15
     }
   }
   element {
@@ -72725,14 +73655,7 @@ cont {
     symbol {
       name: "waterfall-s"
       priority: 16878
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 4473924
-        offset_y: 10
-      }
-      priority: 16878
+      min_distance: 15
     }
   }
 }
