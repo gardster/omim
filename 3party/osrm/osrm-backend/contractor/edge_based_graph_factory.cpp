@@ -607,11 +607,21 @@ void EdgeBasedGraphFactory::GenerateEdgeExpandedNodes()
 
             if (edge_data.edgeBasedNodeID == SPECIAL_NODEID)
             {
+                if (m_node_based_graph->FindEdge(node_v, node_u) == SPECIAL_EDGEID)
+                {
+                    SimpleLogger().Write() << "Graph damaged! Way: "<<edge_data.way_id << " will be ignored. ";
+                    continue;
+                }
                 InsertEdgeBasedNode(node_v, node_u,
                                     (component_is_tiny ? id_of_smaller_component + 1 : 0));
             }
             else
             {
+                if (m_node_based_graph->FindEdge(node_v, node_u) == SPECIAL_EDGEID)
+                {
+                    SimpleLogger().Write() << "Graph damaged! Way: "<<edge_data.way_id << " will be ignored. ";
+                    continue;
+                }
                 InsertEdgeBasedNode(node_u, node_v,
                                     (component_is_tiny ? id_of_smaller_component + 1 : 0));
             }
